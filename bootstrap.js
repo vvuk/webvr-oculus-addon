@@ -54,7 +54,7 @@ function startup(data, reason)
     return;
   }
 
-  var vrBranch = Services.prefs.getDefaultBranch("dom.vr");
+  var vrBranch = Services.prefs.getDefaultBranch("dom.vr.");
   vrBranch.setCharPref("ovr_lib_path", file.path);
 }
 
