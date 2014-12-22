@@ -56,6 +56,7 @@ function startup(data, reason)
 
   var vrBranch = Services.prefs.getDefaultBranch("dom.vr.");
   vrBranch.setCharPref("ovr_lib_path", file.path);
+  vrBranch.setBoolPref("enabled", true);
 }
 
 function shutdown(data, reason)
