@@ -2,10 +2,10 @@
 <r:RDF xmlns="http://www.mozilla.org/2004/em-rdf#"
        xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <r:Description about="urn:mozilla:install-manifest">
-    <creator>Mozilla</creator>
+    <creator>MozVR</creator>
     <name>WebVR Oculus Rift Enabler</name>
     <description>WebVR Oculus Rift Enabler</description>
-    <version>0.4.3</version>
+    <version>0.4.4</version>
     <homepageURL>http://mozvr.com/oculus-addon</homepageURL>
     <id>webvr-oculus-enabler@mozvr.com</id>
 
