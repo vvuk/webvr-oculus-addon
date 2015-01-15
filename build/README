@@ -1,0 +1,9 @@
+These are hacky build scripts intended to create dynamic libraries for
+LibOVR.  To use them, download the Oculus SDK for your platform, create
+a LibOVR/build directory, and copy the appropriate script into that
+directory.  Then run it from that directory.  It'll pick up the sources
+from ../Src and build.
+
+The OSX script here will work either with a osxcross environment set up
+under Linux or natively on OSX.
+
